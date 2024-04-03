@@ -30,7 +30,7 @@ const Input: React.FC<InputProps> = ({ id, onChange, value, label, type }) => {
         focus:outline-none
         focus:ring-0
         peer
-        invalid:border-b-1
+        invalid:border-b-1 overflow-x-hidden
         "
         placeholder=" " 
       />
