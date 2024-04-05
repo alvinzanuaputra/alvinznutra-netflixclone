@@ -115,9 +115,9 @@ const Auth = () => {
               </div>
             </div>
             <p className="text-neutral-500 mt-12">
-              {variant === 'login' ? 'First time using Znuaflix ?' : 'Already have an account?'}
+              {variant === 'login' ? 'First time using znuaflix?' : 'Already have an account?'}
               <span onClick={toggleVariant} className="text-white ml-1 hover:underline cursor-pointer">
-                {variant === 'login' ? 'Create an account' : 'Login'}
+                {variant === 'login' ? 'Create your account' : 'Login'}
               </span>
               .
             </p>
